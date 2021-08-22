@@ -1,0 +1,33 @@
+git 命令
+
+1. git config --global user.name 写上用户名
+
+2. git config --global user.email 邮箱
+
+3.git remote add origin 仓库的url地址   本地仓库和hub仓库关联
+
+4.git init  初始化本地仓库形成工作区   --> 然后操作ls -al  会产生 .git 文件  表示成功
+
+5.git add 文件名    将工作区文件存放在暂存区
+
+6.git status  查看文件的状态  绿色显示表示在暂存区  红色表示在工作区
+
+7.git commit -m '引号里面写注释'   将暂存区文件加入到本地仓库  注释的作用来说明你的代码是干什么的
+
+8.git push origin master  将本地仓库文件推送到github的远程仓库
+
+9.git pull  将远程仓库的文件拉取到本地仓库
+
+10.git clone 仓库url地址     可以远程仓库的克隆下来,直接在本地直接生成一个仓库,可以避免多次提交产生的分支问题  
+
+11.ssh-keygen -t rsa -C ' 邮箱'  会在 一个目录下生成公钥和私钥 后缀是pub为私钥   用来产生公钥和私钥,用私钥来创建仓库,可直接上传,不用再登录账号密码,避免麻烦
+
+12.git log  查看推送记录 q是退出
+
+13.git reflog 详细的查看推送记录  记录前缀就是包含版本号
+
+git reset  --hard  版本号   回退到指定的版本 
+
+ git reset --hard HEAD^  回退版本  ,一个尖 是回退一个  2 个就回退两个  ,以此类推    接着查看文件
+
+ git reset --hard HEAD~数字  回退上几个版本 就是写上相对的数字
