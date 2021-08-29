@@ -1,6 +1,10 @@
 git 命令
 
-1. git config --global user.name 写上用户名
+Windows 复制密钥 clip < ~/.ssh/id_rsa.pub
+
+git config user.name/user.email 查看本地用户名/邮箱
+
+1. git config --global user.name 写上用户名 
 
 2. git config --global user.email 邮箱
 
@@ -26,8 +30,8 @@ git 命令
 
 13.git reflog 详细的查看推送记录  记录前缀就是包含版本号
 
-git reset  --hard  版本号   回退到指定的版本 
+14.git reset  --hard  版本号   回退到指定的版本 
 
- git reset --hard HEAD^  回退版本  ,一个尖 是回退一个  2 个就回退两个  ,以此类推    接着查看文件
+15.git reset --hard HEAD^  回退版本  ,一个尖 是回退一个  2 个就回退两个  ,以此类推    接着查看文件
 
- git reset --hard HEAD~数字  回退上几个版本 就是写上相对的数字
+16.git reset --hard HEAD~数字  回退上几个版本 就是写上相对的数字
