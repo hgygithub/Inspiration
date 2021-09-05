@@ -9,3 +9,6 @@ https://www.bilibili.com/video/BV1Kb411W75N?p=46&spm_id_from=pageDriver
 
 8-31 命名规则
 https://www.bilibili.com/video/BV1Kb411W75N?p=47
+
+9-5 数据类型
+https://www.bilibili.com/video/BV1Kb411W75N?p=56&spm_id_from=pageDriver
