@@ -20,4 +20,4 @@ day05 9-9 Sting拼接
 https://www.bilibili.com/video/BV1Kb411W75N?p=62&spm_id_from=pageDriver
 
 day06 运算符和进制
-https://www.bilibili.com/video/BV1Kb411W75N?p=74&spm_id_from=pageDriver
+https://www.bilibili.com/video/BV1Kb411W75N?p=85
