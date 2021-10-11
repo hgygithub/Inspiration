@@ -21,3 +21,6 @@ https://www.bilibili.com/video/BV1Kb411W75N?p=62&spm_id_from=pageDriver
 
 day06 运算符和进制
 https://www.bilibili.com/video/BV1Kb411W75N?p=85
+
+day07  scanner
+https://www.bilibili.com/video/BV1Kb411W75N?p=96&spm_id_from=pageDriver
