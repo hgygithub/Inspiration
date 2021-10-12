@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class IfTest2 {
 
-    public static void main1(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("输入第一个数字");
         Scanner sca = new Scanner(System.in);
@@ -15,12 +15,20 @@ public class IfTest2 {
         System.out.println("输入第三个数字");
         int num3 = sca.nextInt();
 
-        String max = (num1 > num2) ? ((num1 > num3) ? ("num1::::--" + num1) : "num3 大") : "num2大";
-        System.out.println(max);
+        if (num1 > num2){
+            if (num3>num1){
+                System.out.println("num3大 2  1");
 
+            }else if (num3<num2){
+                System.out.println("1da  2  3");
+            }else {
+                System.out.println("2da  3  1");
+
+            }
+        }
     }
 
-    public static void main2(String[] arg) {
+    public static void main22(String[] arg1) {
         Scanner scanner = new Scanner(System.in);
         int n1 = scanner.nextInt();
         int n2 = scanner.nextInt();
@@ -30,7 +38,7 @@ public class IfTest2 {
 
     }
 
-    public static void main3(String[] arg) {
+    public static void main3(String[] arg2) {
         Scanner scanner = new Scanner(System.in);
         double n1 = scanner.nextDouble();
         double n2 = scanner.nextDouble();
@@ -43,7 +51,7 @@ public class IfTest2 {
 
     }
 
-    public static void main(String[] arg) {
+    public static void main11(String[] arg) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("输入狗的年龄：");
         double n1 = scanner.nextDouble();
@@ -56,4 +64,5 @@ public class IfTest2 {
     }
 
 }
+
 
