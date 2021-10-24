@@ -24,7 +24,7 @@ package day07;
 
 
 
-public class If_else {
+public class IfElse {
     public static void main(String[] args) {
         int a = 1;
         int b = 1;
