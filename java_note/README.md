@@ -24,3 +24,6 @@ https://www.bilibili.com/video/BV1Kb411W75N?p=85
 
 For
 https://www.bilibili.com/video/BV1Kb411W75N?p=111&spm_id_from=pageDriver
+
+数组
+https://www.bilibili.com/video/BV1Kb411W75N?p=141
